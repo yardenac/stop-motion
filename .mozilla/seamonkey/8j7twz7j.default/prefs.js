@@ -9,7 +9,16 @@
  * For more information, see http://www.mozilla.org/unix/customizing.html#prefs
  */
 
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1315610730);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1315610730);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1315610730);
+user_pref("browser.bookmarks.restore_default_bookmarks", false);
+user_pref("browser.cache.disk.capacity", 1048576);
+user_pref("browser.cache.disk.smart_size.first_run", false);
+user_pref("browser.cache.disk.smart_size_cached_value", 173091);
 user_pref("browser.places.smartBookmarksVersion", 2);
+user_pref("browser.rights.1.shown", true);
+user_pref("browser.startup.homepage", "https://encrypted.google.com/");
 user_pref("browser.startup.homepage_override.mstone", "rv:6.0.2");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.bootstrappedAddons", "{}");
@@ -22,6 +31,9 @@ user_pref("extensions.installedDistroAddon.{f13b157f-b174-47e7-a34d-4815ddfdfeb8
 user_pref("extensions.lastAppVersion", "2.3.3");
 user_pref("extensions.lastPlatformVersion", "6.0.2");
 user_pref("extensions.pendingOperations", false);
+user_pref("intl.charsetmenu.browser.cache", "UTF-8");
+user_pref("network.cookie.prefsMigrated", true);
 user_pref("places.history.expiration.transient_current_max_pages", 114682);
+user_pref("toolkit.zoomManager.zoomValues", "0.5,0.75,0.9,1,1.2,1.5,2");
 user_pref("xpinstall.whitelist.add", "");
 user_pref("xpinstall.whitelist.add.36", "");
