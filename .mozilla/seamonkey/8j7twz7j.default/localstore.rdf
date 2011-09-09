@@ -10,7 +10,11 @@
     <NC:persist RDF:resource="chrome://navigator/content/navigator.xul#nav-bar"/>
     <NC:persist RDF:resource="chrome://navigator/content/navigator.xul#navigator-toolbox"/>
     <NC:persist RDF:resource="chrome://navigator/content/navigator.xul#toolbar-menubar"/>
+    <NC:persist RDF:resource="chrome://navigator/content/navigator.xul#component-bar"/>
+    <NC:persist RDF:resource="chrome://navigator/content/navigator.xul#cmd_viewcomponentbar"/>
   </RDF:Description>
+  <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#cmd_viewcomponentbar"
+                   checked="false" />
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#sidebar-splitter"
                    hidden="true" />
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#nav-bar"
@@ -18,6 +22,12 @@
                    ignoremodepref="true"
                    iconsize="small"
                    currentset="back-button,forward-button,nav-bar-inner,stop-button,window-controls" />
+  <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#main-window"
+                   screenY="38"
+                   sizemode="normal"
+                   screenX="235"
+                   width="1045"
+                   height="828" />
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#sidebar-box"
                    hidden="true" />
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#PersonalToolbar"
@@ -25,15 +35,9 @@
                    iconsize="small"
                    mode="icons"
                    currentset="home-button,separator,bookmarks-button,personal-bookmarks" />
-  <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#navigator-toolbox"
-                   iconsize="small"
-                   mode="icons" />
-  <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#main-window"
-                   screenY="38"
-                   sizemode="normal"
-                   screenX="235"
-                   width="1045"
-                   height="828" />
+  <RDF:Description RDF:about="chrome://communicator/content/pref/preferences.xul">
+    <NC:persist RDF:resource="chrome://communicator/content/pref/preferences.xul#prefDialog"/>
+  </RDF:Description>
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#sidebar-panels"
                    last-selected-panel="urn:sidebar:panel:bookmarks" />
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#toolbar-menubar"
@@ -43,7 +47,16 @@
   <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul">
     <NC:persist RDF:resource="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"/>
   </RDF:Description>
+  <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#navigator-toolbox"
+                   iconsize="small"
+                   mode="icons" />
+  <RDF:Description RDF:about="chrome://communicator/content/pref/preferences.xul#prefDialog"
+                   lastSelected="navigator_pane"
+                   screenX="20"
+                   screenY="40" />
   <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"
                    width="689"
                    height="480" />
+  <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#component-bar"
+                   hidden="true" />
 </RDF:RDF>
