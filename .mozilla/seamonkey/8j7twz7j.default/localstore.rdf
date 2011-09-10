@@ -4,7 +4,7 @@
   <RDF:Description RDF:about="chrome://communicator/content/pref/preferences.xul#prefDialog"
                    screenX="40"
                    screenY="80"
-                   lastSelected="advanced_pane" />
+                   lastSelected="http_pane" />
   <RDF:Description RDF:about="chrome://communicator/content/pref/preferences.xul">
     <NC:persist RDF:resource="chrome://communicator/content/pref/preferences.xul#prefDialog"/>
   </RDF:Description>
