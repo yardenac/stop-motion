@@ -31,9 +31,14 @@ user_pref("extensions.installedDistroAddon.{f13b157f-b174-47e7-a34d-4815ddfdfeb8
 user_pref("extensions.lastAppVersion", "2.3.3");
 user_pref("extensions.lastPlatformVersion", "6.0.2");
 user_pref("extensions.pendingOperations", false);
+user_pref("idle.lastDailyNotification", 1315611660);
 user_pref("intl.charsetmenu.browser.cache", "UTF-8");
 user_pref("network.cookie.prefsMigrated", true);
+user_pref("places.database.lastMaintenance", 1315611660);
 user_pref("places.history.expiration.transient_current_max_pages", 114682);
+user_pref("privacy.sanitize.didShutdownSanitize", true);
+user_pref("storage.vacuum.last.index", 0);
+user_pref("storage.vacuum.last.places.sqlite", 1315611660);
 user_pref("toolkit.zoomManager.zoomValues", "0.5,0.75,0.9,1,1.2,1.5,2");
 user_pref("xpinstall.whitelist.add", "");
 user_pref("xpinstall.whitelist.add.36", "");
