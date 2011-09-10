@@ -2,9 +2,9 @@
 <RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <RDF:Description RDF:about="chrome://communicator/content/pref/preferences.xul#prefDialog"
-                   screenX="50"
-                   screenY="123"
-                   lastSelected="history_pane" />
+                   screenX="40"
+                   screenY="80"
+                   lastSelected="download_pane" />
   <RDF:Description RDF:about="chrome://communicator/content/pref/preferences.xul">
     <NC:persist RDF:resource="chrome://communicator/content/pref/preferences.xul#prefDialog"/>
   </RDF:Description>
