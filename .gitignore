@@ -1,1 +1,22 @@
+# will adopt soon enough
+.gitconfig
+.ssh
+
+# tracked by /etc/skel.ppz, shouldnt change
+.htoprc
+.emacs.d
+.xinitrc
+.fvwm/
+.config/Terminal/
+.config/fbpanel/
+
+# tracked but will change
+.bash_history
+
+# made on the fly
 .mozilla/*/*/Cache
+.fontconfig/
+.rxvt-unicode-*
+
+# save scraps
+.emacs-save-*
