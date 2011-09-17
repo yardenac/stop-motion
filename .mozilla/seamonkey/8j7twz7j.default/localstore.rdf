@@ -32,9 +32,9 @@
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#main-window"
                    sizemode="normal"
                    screenY="47"
-                   screenX="276"
-                   width="1004"
-                   height="763" />
+                   screenX="299"
+                   width="981"
+                   height="808" />
   <RDF:Description RDF:about="chrome://navigator/content/navigator.xul#sidebar-splitter"
                    hidden="true" />
   <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"
